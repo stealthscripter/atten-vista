@@ -1,0 +1,154 @@
+{
+  "attendance": [
+    {
+      "id": "2010",
+      "date": "2024-07-10",
+      "classid": "8607",
+      "students": [
+        {
+          "firstname": "Abebe",
+          "lastname": "Bikila",
+          "id": 3376,
+          "status": true
+        },
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 6352,
+          "status": true
+        },
+        {
+          "firstname": "Kenedy",
+          "lastname": "Mengesha",
+          "id": 6251,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "2264",
+      "date": "2024-07-25",
+      "classid": "8607",
+      "students": [
+        {
+          "firstname": "Abebe",
+          "lastname": "Bikila",
+          "id": 3376,
+          "status": false
+        },
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 6352,
+          "status": false
+        },
+        {
+          "firstname": "Kenedy",
+          "lastname": "Mengesha",
+          "id": 6251,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "c6d3",
+      "date": "2024-07-25",
+      "classid": "8607",
+      "students": [
+        {
+          "firstname": "Abebe",
+          "lastname": "Bikila",
+          "id": 3376,
+          "status": false
+        },
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 6352,
+          "status": false
+        },
+        {
+          "firstname": "Kenedy",
+          "lastname": "Mengesha",
+          "id": 6251,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "1dfd",
+      "date": "2024-07-25",
+      "classid": "8607",
+      "students": [
+        {
+          "firstname": "Abebe",
+          "lastname": "Bikila",
+          "id": 3376,
+          "status": false
+        },
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 6352,
+          "status": false
+        },
+        {
+          "firstname": "Kenedy",
+          "lastname": "Mengesha",
+          "id": 6251,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "206c",
+      "date": "2024-07-01",
+      "classid": "8607",
+      "students": [
+        {
+          "firstname": "Abebe",
+          "lastname": "Bikila",
+          "id": 3376,
+          "status": false
+        },
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 6352,
+          "status": false
+        },
+        {
+          "firstname": "Kenedy",
+          "lastname": "Mengesha",
+          "id": 6251,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "9de4",
+      "date": "2024-07-17",
+      "classid": "8607",
+      "students": [
+        {
+          "firstname": "Abebe",
+          "lastname": "Bikila",
+          "id": 3376,
+          "status": false
+        },
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 6352,
+          "status": false
+        },
+        {
+          "firstname": "Kenedy",
+          "lastname": "Mengesha",
+          "id": 6251,
+          "status": false
+        }
+      ]
+    }
+  ]
+}

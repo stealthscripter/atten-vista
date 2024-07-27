@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 3376,
+      "firstname": "Abebe",
+      "lastname": "Bikila",
+      "classid": "8607"
+    },
+    {
+      "id": 6352,
+      "firstname": "Natnael",
+      "lastname": "Ayele",
+      "classid": "8607"
+    },
+    {
+      "id": 6251,
+      "firstname": "Kenedy",
+      "lastname": "Mengesha",
+      "classid": "8607"
+    }
+  ]
+}
