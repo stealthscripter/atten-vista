@@ -3,7 +3,7 @@
   <form @submit.prevent.stop="submitHandler">
     <input @input="createAttendance" type="date" v-model="date" />
     <AttendanceList
-      :studentData="attendanceData"
+      :attendanceData="attendanceData"
       @toggleStatus="handletoggleStatus"
     />
     <button type="sumbit">Submit</button>

@@ -12,13 +12,13 @@
     <div v-if="$route.name === 'attendance'">
       <nav class="secondary-nav">
         <button
-          @click="currentComponent('takeattendance')"
+          @click="currentComponent(true)"
           class="border-2 border-dotted border-blue-400 px-2"
         >
           Take Attendance
         </button>
         <button
-          @click="currentComponent('viewattendance')"
+          @click="currentComponent(false)"
           class="border-2 border-dotted border-blue-400 px-2"
         >
           View Attendance
@@ -34,7 +34,6 @@ export default {
   emits: ['current'],
   setup(props, {emit}) {
       const currentComponent = (current) => {
-            console.log(current)
             emit('current' , current)
       }
 

@@ -1,6 +1,6 @@
 <template>
-    <p>Attendance Date at {{ studentData.date }}</p>
-    <main v-for="student in studentData.students">
+    <p>Attendance Date at {{ attendanceData.date }}</p>
+    <main v-for="student in attendanceData.students">
         <AttendanceItem @toggleStatus="toggleStatus" :students="student"/>
     </main>
 </template>
@@ -10,7 +10,7 @@
     export default{
         components: {AttendanceItem},
         emits: ['toggleStatus'],
-        props: ['studentData'],
+        props: ['attendanceData'],
         setup(props,{emit}){
             const toggleStatus = (id) =>{
                 emit('toggleStatus',id)
