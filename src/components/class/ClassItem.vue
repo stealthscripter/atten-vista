@@ -9,6 +9,7 @@
         <p class="section">{{ classes.section }}</p>
       </div>
     </main>
+  
   </router-link>
 </template>
 

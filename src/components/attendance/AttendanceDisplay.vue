@@ -4,9 +4,8 @@
   <div v-for="attendanceData in filteredAttendance">
     <div
       v-if="attendanceData.students"
-      v-for="student in attendanceData.students"
-    >
-      <p>{{ student.firstname }}</p>
+      v-for="student in attendanceData.students">
+      <p>{{ student.firstname }} {{ student.status }}</p>
     </div>
   </div>
 

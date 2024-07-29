@@ -1,22 +1,40 @@
 {
   "students": [
     {
-      "id": 3376,
+      "id": "3376",
       "firstname": "Abebe",
       "lastname": "Bikila",
       "classid": "8607"
     },
     {
-      "id": 6352,
+      "id": "6352",
       "firstname": "Natnael",
       "lastname": "Ayele",
       "classid": "8607"
     },
     {
-      "id": 6251,
+      "id": "6251",
       "firstname": "Kenedy",
       "lastname": "Mengesha",
       "classid": "8607"
+    },
+    {
+      "id": 3387,
+      "firstname": "Natnael",
+      "lastname": "Ayele",
+      "classid": "75ea"
+    },
+    {
+      "id": 2621,
+      "firstname": "Chala",
+      "lastname": "Bultimue",
+      "classid": "75ea"
+    },
+    {
+      "id": 2611,
+      "firstname": "Abebe",
+      "lastname": "Aregay",
+      "classid": "75ea"
     }
   ]
 }

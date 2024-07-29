@@ -26,57 +26,7 @@
       ]
     },
     {
-      "id": "2264",
-      "date": "2024-07-25",
-      "classid": "8607",
-      "students": [
-        {
-          "firstname": "Abebe",
-          "lastname": "Bikila",
-          "id": 3376,
-          "status": false
-        },
-        {
-          "firstname": "Natnael",
-          "lastname": "Ayele",
-          "id": 6352,
-          "status": false
-        },
-        {
-          "firstname": "Kenedy",
-          "lastname": "Mengesha",
-          "id": 6251,
-          "status": false
-        }
-      ]
-    },
-    {
       "id": "c6d3",
-      "date": "2024-07-25",
-      "classid": "8607",
-      "students": [
-        {
-          "firstname": "Abebe",
-          "lastname": "Bikila",
-          "id": 3376,
-          "status": false
-        },
-        {
-          "firstname": "Natnael",
-          "lastname": "Ayele",
-          "id": 6352,
-          "status": false
-        },
-        {
-          "firstname": "Kenedy",
-          "lastname": "Mengesha",
-          "id": 6251,
-          "status": false
-        }
-      ]
-    },
-    {
-      "id": "1dfd",
       "date": "2024-07-25",
       "classid": "8607",
       "students": [
@@ -246,6 +196,31 @@
           "firstname": "Kenedy",
           "lastname": "Mengesha",
           "id": "6251",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": "c555",
+      "date": "2024-07-29",
+      "classid": "75ea",
+      "students": [
+        {
+          "firstname": "Natnael",
+          "lastname": "Ayele",
+          "id": 3387,
+          "status": true
+        },
+        {
+          "firstname": "Chala",
+          "lastname": "Bultimue",
+          "id": 2621,
+          "status": true
+        },
+        {
+          "firstname": "Abebe",
+          "lastname": "Aregay",
+          "id": 2611,
           "status": true
         }
       ]
