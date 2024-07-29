@@ -2,7 +2,7 @@
     <p>Attendance Date at {{ attendanceData.date }}</p>
     <main v-for="student in attendanceData.students">
         <AttendanceItem @toggleStatus="toggleStatus" :students="student"/>
-    </main>
+    </main>    
 </template>
 
 <script>
