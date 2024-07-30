@@ -18,11 +18,6 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-       path: '/classes',
-       name: 'classes',
-       component: () => import('../views/ClassView.vue')
-    },
-    {
       path: '/students/:id',
       name: 'students',
       component: () => import('../views/StudentView.vue'),
@@ -37,7 +32,14 @@ const router = createRouter({
     { 
         path: '/dashboard',
         name: 'dashboard',
-        component: () => import('../views/Dashboard.vue')
+        component: () => import('../views/Dashboard.vue'),
+        children: [
+          {
+            path: '/classes',
+            name: 'classes',
+            component: () => import('../views/ClassView.vue')
+         }
+        ]
     }
   ]
 })
