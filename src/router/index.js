@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
     },
     {
       path: '/about',
@@ -33,6 +33,11 @@ const router = createRouter({
        name: 'attendance',
        component: () => import('../views/AttendanceView.vue'),
        props: true
+    },
+    { 
+        path: '/dashboard',
+        name: 'dashboard',
+        component: () => import('../views/Dashboard.vue')
     }
   ]
 })
