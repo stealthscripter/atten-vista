@@ -1,5 +1,5 @@
 <template>
-    <main class="flex p-1 my-10">
+    <main class="flex border-black my-10 border-2">
           <div class="flex-grow p-8">
               <p class="font-light text-sm mb-2">attendance management</p>
               <h1 class="text-4xl font-bold font-Raleway p-0 mt-0 mb-0">Efficiently Track <br> and Manage Student Attendance</h1>
@@ -25,6 +25,6 @@
     }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
